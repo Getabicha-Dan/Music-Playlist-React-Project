@@ -11,7 +11,7 @@ const Home = () => {
     }
     return ( 
         <div className="home">
-            <h1>Gospel Hymn Play List</h1>
+            <h1>Gospel Hymn Store</h1>
             <SongAdder handelAdder={handelAdder}/>
             <HymnList hymns={hymns} handelDelete={handelDelete}/>
 

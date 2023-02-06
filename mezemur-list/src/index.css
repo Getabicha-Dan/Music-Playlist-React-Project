@@ -4,15 +4,11 @@
 * {
     margin: 0;
     font-family: "Quicksand";
-    color: #333;
+    color: rgba(113, 21, 156, 0.486);
   }
 
-  * {
-    margin: 0;
-    font-family: "Quicksand";
-    color: #333;
-  }
-  .navbar {
+  
+  .home {
     padding: 20px;
     display: flex;
     align-items: center;
@@ -21,16 +17,36 @@
     border-bottom: 1px solid #f2f2f2;
   }
   .home h1 {
-    color: #4c061b;
+    color: #c11ccd98;
+    padding: 20px;
+    display: block;
+    align-items: center;
   }
-  .home .links {
-    margin-left: auto;
+  
+  .App {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
   }
-  .home a {
-    margin-left: 16px;
-    text-decoration: none;
-    padding: 6px;
+  .input[type="text"]{
+   padding: 10px;
+   
   }
-  .home a:hover {
+  .button{
+    max-width: 100px;
+    margin: 40px auto;
+    padding: 20px;
+  }
+  .listedHymn {
+    padding: 10px 20px;
+    margin: 20px 10px;
+    border-bottom: 1px solid #fafafa;
+  }
+  .listedHymn:hover {
+    box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+  }
+  .listedHymn h2 {
+    font-size: 20px;
     color: #f1356d;
+    margin-bottom: 8px;
   }
