@@ -1,14 +1,14 @@
 import { useState } from "react";
-const SongAdder = ({handelAdder}) => {
+const SongAdder = ({handleAdder}) => {
     const[newHymn,setHymn]=useState('');
-    const handelChange = (event)=>{
+    const handleChange = (event)=>{
         setHymn(event.target.value);
     }
     
 return (  
     <div className="adderPreview">
-        <input type="text" placeholder="Song Titel" onChange={handelChange}/>
-        <button onClick={()=>handelAdder(newHymn)}> Add Hymn</button>
+        <input type="text" placeholder="Song Titel" onChange={handleChange}/>
+        <button onClick={()=>handleAdder(newHymn)}> Add Hymn</button>
     </div>
         
     );
